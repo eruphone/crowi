@@ -11,7 +11,7 @@ services:
       MONGO_URI: mongodb://mongodb:27017/crowi
       REDIS_URL: redis://redis:6379/crowi
       ELASTICSEARCH_URI: elasticsearch:9200/
-      PLANTUML_URI: //localhost:8080
+      PLANTUML_URI: //location.origin:8080
       FILE_UPLOAD: local
     volumes:
       - ./:/crowi

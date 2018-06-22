@@ -35,7 +35,7 @@ export default class Modal extends React.Component {
                   <label for="newPageName">New page name</label>
                   <br />
                   <div class="input-group">
-                    <span class="input-group-addon">http://localhost:3000</span>
+                    <span class="input-group-addon">http://location.origin:3000</span>
                     <input
                       type="text"
                       class="form-control"

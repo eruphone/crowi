@@ -50,7 +50,7 @@ Start Up on Local
 Crowi is designed to be set up on Heroku or some PaaS, but you can also start up Crowi with ENV parameter on your local.
 
 ```
-$ PASSWORD_SEED=somesecretstring MONGO_URI=mongodb://username:password@localhost/crowi node app.js
+$ PASSWORD_SEED=somesecretstring MONGO_URI=mongodb://username:password@location.origin/crowi node app.js
 ```
 or please write `.env`.
 
@@ -69,7 +69,7 @@ or please write `.env`.
 Optional:
 
 * `MATHJAX`: If set `1`, enable MathJax feature.
-* `PLANTUML_URI`: If set the url of PlantUML server, then enable PlantUML feature. e.g. `http://localhost:18080`.
+* `PLANTUML_URI`: If set the url of PlantUML server, then enable PlantUML feature. e.g. `http://location.origin:18080`.
 
 see: [.env.sample](./.env.sample)
 

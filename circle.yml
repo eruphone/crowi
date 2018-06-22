@@ -6,10 +6,10 @@ jobs:
       - image: node:8.11.2
         environment:
           NODE_ENV: development
-          MONGO_URI: mongodb://localhost:27017/crowi
-          REDIS_URL: redis://localhost:6379/crowi
-          ELASTICSEARCH_URI: //localhost:9200/
-          PLANTUML_URI: //localhost:8080
+          MONGO_URI: mongodb://location.origin:27017/crowi
+          REDIS_URL: redis://location.origin:6379/crowi
+          ELASTICSEARCH_URI: //location.origin:9200/
+          PLANTUML_URI: //location.origin:8080
           FILE_UPLOAD: local
       - image: mongo:3.6.3
     steps:
